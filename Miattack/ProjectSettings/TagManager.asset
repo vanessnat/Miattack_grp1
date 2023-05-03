@@ -47,3 +47,9 @@ TagManager:
   - name: bois
     uniqueID: 4044111921
     locked: 0
+  - name: serpent
+    uniqueID: 4178002651
+    locked: 0
+  - name: Floor
+    uniqueID: 115408651
+    locked: 0
