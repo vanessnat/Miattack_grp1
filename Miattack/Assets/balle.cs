@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class balle : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public Rigidbody2D hook;
 
     public float releaseTime = .15f;
+    public float maxDragDistance = 2f;
+
+    public GameObject nextBall;
 
     private bool isPressed = false;
 
@@ -14,7 +19,11 @@ public class balle : MonoBehaviour
     {
       if (isPressed)
       {
-          rb.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+          Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+          if (Vector3.Distance(mousePos, hook.position) > maxDragDistance)
+              rb.position = hook.position + (mousePos - hook.position).normalized * maxDragDistance;
+          else
+            rb.position = mousePos;
       }
     }
 
@@ -37,5 +46,18 @@ public class balle : MonoBehaviour
       yield return new WaitForSeconds(releaseTime);
 
       GetComponent<SpringJoint2D>().enabled = false;
+
+      yield return new WaitForSeconds(2f);
+
+      if (nextBall != null)
+      {
+        nextBall.SetActive(true);
+      }
+      else
+      {
+        Ennemi.EnnemisAlive = 0;
+        SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+      }
+
     }
 }
