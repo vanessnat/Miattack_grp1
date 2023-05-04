@@ -11,7 +11,7 @@ public class TestActivation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      //  volume.enabled = true;
+      volume.enabled = true;
     }
 
     // Update is called once per frame
