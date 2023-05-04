@@ -17,6 +17,11 @@ public class MainMenu : MonoBehaviour
         settingsWindow.SetActive(true);
     }
     
+    public void CloseSettingsWindow()
+    {
+        settingsWindow.SetActive(false);
+    }
+    
     public void QuitGame()
     {
         Application.Quit();
