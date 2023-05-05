@@ -2076,7 +2076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagToFind: Enemy
-  sceneToGo: GameOver
+  sceneToGo: GAMEOVER
 --- !u!114 &519420038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2090,7 +2090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagToFind: Enemy
-  sceneToGo: 
+  sceneToGo: LevelWin
 --- !u!1001 &555662795
 PrefabInstance:
   m_ObjectHideFlags: 0

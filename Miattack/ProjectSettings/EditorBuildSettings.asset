@@ -35,4 +35,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tuto.unity
     guid: 61ab03216d15baf4b9ff0b1a3a40baca
+  - enabled: 1
+    path: Assets/Scene 2/Level2.unity
+    guid: 176d0a7ce6e9d2c4a913dffe697d165a
+  - enabled: 1
+    path: Assets/Scene 2/LevelWin.unity
+    guid: fb48be6136f1bf24e8fc3213879683ac
+  - enabled: 1
+    path: Assets/Scene 2/GAMEOVER 2.unity
+    guid: a2de5ecd1d5fc0747a06161cd6a29ffb
+  - enabled: 1
+    path: Assets/Scene 2/LevelWin2.unity
+    guid: 90fd98d67fefb8f40b7b1badd5f23021
   m_configObjects: {}
