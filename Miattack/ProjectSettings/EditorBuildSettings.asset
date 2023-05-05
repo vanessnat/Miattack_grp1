@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scene 0/Home.unity
     guid: c39d53d2890aaf945acabb284a5a2719
   - enabled: 1
-    path: Assets/Scene 2/Level1.unity
+    path: Assets/Scene 2/josephine.unity
     guid: 95ce7c6f4b5ac4e5b93b21c444143bf3
   - enabled: 1
     path: Assets/Scenes/Credits.unity
