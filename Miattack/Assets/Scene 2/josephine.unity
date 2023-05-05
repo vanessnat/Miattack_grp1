@@ -161,6 +161,7 @@ MonoBehaviour:
   releaseTime: 0.15
   maxDragDistance: 4
   nextBall: {fileID: 923748963}
+  sceneToGoWhenNoFurtherBall: Level2
 --- !u!231 &79899224
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -1356,6 +1357,7 @@ MonoBehaviour:
   releaseTime: 0.15
   maxDragDistance: 4
   nextBall: {fileID: 79899222}
+  sceneToGoWhenNoFurtherBall: Level2
 --- !u!82 &386350640
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3292,6 +3294,7 @@ MonoBehaviour:
   releaseTime: 0.15
   maxDragDistance: 4
   nextBall: {fileID: 0}
+  sceneToGoWhenNoFurtherBall: GAMEOVER
 --- !u!231 &923748965
 SpringJoint2D:
   m_ObjectHideFlags: 0

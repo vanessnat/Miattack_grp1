@@ -13,6 +13,8 @@ public class balle : MonoBehaviour
 
     public GameObject nextBall;
 
+    public string sceneToGoWhenNoFurtherBall = "";
+
     private bool isPressed = false;
 
     void Update ()
@@ -55,8 +57,9 @@ public class balle : MonoBehaviour
       }
       else
       {
-        Ennemi.EnnemisAlive = 0;
-        SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene (sceneToGoWhenNoFurtherBall);
+        //Ennemi.EnnemisAlive = 0;
+        //SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
       }
 
     }

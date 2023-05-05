@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Histoire 3.unity
     guid: 97ed0e5c2daf28a46a47bee7f3aed474
+  - enabled: 1
+    path: Assets/Scene 2/GAMEOVER.unity
+    guid: ffd4b53feab2f4a4bb4dc3b36f806fdb
   m_configObjects: {}
