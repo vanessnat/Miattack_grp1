@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class IngamePauseMenu : MonoBehaviour
 {
-     public static bool GameIsPaused = false;
+    public static bool GameIsPaused = false;
     
     public GameObject pauseMenuUI;
 
@@ -37,4 +36,10 @@ public class IngamePauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
+
+    public void BackToMenu() {
+        SceneManager.LoadScene("Home");
+    }
+
+    
 }
