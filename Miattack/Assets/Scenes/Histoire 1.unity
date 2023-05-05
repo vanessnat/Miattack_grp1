@@ -455,7 +455,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 530791301}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1594937091}
+        m_TargetAssemblyTypeName: StoryMode, Assembly-CSharp
+        m_MethodName: Continue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &530791301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -706,8 +718,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717683016}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.19, y: 0.14, z: 0}
-  m_LocalScale: {x: 0.6469385, y: 0.645034, z: 0.5771084}
+  m_LocalPosition: {x: -0.6, y: 0.323, z: 0}
+  m_LocalScale: {x: 0.59466505, y: 0.6413233, z: 0.5453097}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1025,6 +1037,7 @@ GameObject:
   - component: {fileID: 1594937089}
   - component: {fileID: 1594937088}
   - component: {fileID: 1594937087}
+  - component: {fileID: 1594937091}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1114,3 +1127,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1594937091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594937086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076675a19f31aa84dbcbd27d0876ad9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: Histoire 2
+  nextArrow: {fileID: 530791298}
