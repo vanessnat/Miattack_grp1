@@ -421,9 +421,6 @@ GameObject:
   - component: {fileID: 603153214}
   - component: {fileID: 603153213}
   - component: {fileID: 603153212}
-  - component: {fileID: 603153215}
-  - component: {fileID: 603153216}
-  - component: {fileID: 603153217}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -561,7 +558,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 19.2, y: 10.8}
+  m_Size: {x: 10.74, y: 8.58}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -575,8 +572,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756401318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.45, y: -0.5681, z: 0}
-  m_LocalScale: {x: 0.7158877, y: 0.7028998, z: 1.500292}
+  m_LocalPosition: {x: 0.16, y: -0.24, z: 0}
+  m_LocalScale: {x: 0.83073896, y: 0.81566733, z: 1.7409867}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
