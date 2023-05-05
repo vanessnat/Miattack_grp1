@@ -11,12 +11,16 @@ public class TestActivation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      volume.enabled = true;
+      
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (PlayerPrefs.GetInt("BW") == 1) {
+        volume.enabled = true;
+      } else {
+        volume.enabled = false;
+      }
     }
 }
